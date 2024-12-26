@@ -1,0 +1,89 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #ffffffc1; /* Light background for a clean, bright feel */
+    color: #525252; /* Dark text for good readability */
+}
+
+/* Header and Navigation */
+header {
+    background-color: #61d5ff; /* Light blue background */
+    padding: 10px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+nav .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #0c104e; /* Dark blue color for contrast */
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #2f0c4e; /* Dark purple text for navigation links */
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #fffdf4; /* Light cream color on hover for contrast */
+}
+
+/* Brand Identity Section */
+#brand-identity {
+    padding: 40px 20px;
+    background-color: #69d6fd88; /* Light blue background */
+    text-align: center;
+}
+
+#brand-identity h1 {
+    font-size: 2.5em;
+    color: #5A2D82; /* Purple heading */
+    margin-bottom: 20px;
+}
+
+#brand-identity p {
+    font-size: 1.2em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #5A2D82; /* Purple footer */
+    color: white;
+    font-size: 1.1em;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    #brand-identity h1 {
+        font-size: 2em;
+    }
+
+    #brand-identity p {
+        font-size: 1em;
+    }
+}
